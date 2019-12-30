@@ -1,6 +1,5 @@
 
 def hopper
-  
 	programmer_hash = 
  		{
         :grace_hopper => {
@@ -17,7 +16,7 @@ def hopper
         }
      }
      
-puts programmer_hash[:grace_hopper]
+puts hopper[programmer_hash][:grace_hopper]
 
 end
 
